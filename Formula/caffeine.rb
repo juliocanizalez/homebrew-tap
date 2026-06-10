@@ -1,17 +1,17 @@
 class Caffeine < Formula
   desc "Keep your Mac awake — CLI + live menu bar countdown"
   homepage "https://github.com/juliocanizalez/caffeine"
-  version "0.3.4"
+  version "0.3.5"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/juliocanizalez/caffeine/releases/download/v#{version}/caffeine-aarch64-apple-darwin.tar.gz"
-      sha256 "f8f652565de27e5f5b5c8ff98fdf5282bb7482f460dea685d02aa52cc2f5dbb5"
+      sha256 "df12ac5d265c38b8daf9cbc2c9b38e5cdeb8b6cb72701938f2fd5938efc05c13"
     end
     on_intel do
       url "https://github.com/juliocanizalez/caffeine/releases/download/v#{version}/caffeine-x86_64-apple-darwin.tar.gz"
-      sha256 "8cba8a913d2086ad04072ca891187d2bd101938f3b0e41d8a09b0222af6361b4"
+      sha256 "26c54349f8017c0bda8c20c41d1ce6656868c7d37b8d787558aabb39f1f5f120"
     end
   end
 
